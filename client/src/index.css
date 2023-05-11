@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer components {
+  .btn-primary {
+    @apply py-2 px-4 bg-main text-tsecondary border rounded w-fit hover:main-shadow text-center font-bold cursor-pointer border-main hover:border-main hover:text-main hover:bg-tsecondary transition-all;
+  }
+  .main-shadow {
+    @apply shadow-2xl;
+  }
+
+  .title {
+    @apply text-3xl italic py-2 font-semibold text-gray-800 border-b-4 border-b-main w-fit my-10;
+  }
+  .sec-title {
+    @apply text-2xl  py-2 font-semibold text-center border-b-4 text-main my-10;
+  }
+  .tag {
+    @apply cursor-pointer text-sm inline-flex items-center font-bold   px-3 py-1 rounded-full bg-white text-gray-700 border hover:bg-main hover:text-tsecondary;
+  }
+  .alert {
+    @apply bg-orange-100 border-l-4 border-main text-orange-700 p-4;
+  }
+}
+body {
+  font-family: "Inter", sans-serif;
+}
+
+.main-screen {
+  margin: 80px 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.image1 {
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-image: url("/public/image1.png");
+}
+
+.image2 {
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-image: url("/public/image2.png");
+}
+.image3 {
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-image: url("/public/image3.png");
+}
+.image4 {
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-image: url("/public/image4.png");
+}
+
+.typo {
+  font-family: "Dancing Script";
+}
